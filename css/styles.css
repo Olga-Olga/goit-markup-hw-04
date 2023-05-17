@@ -240,6 +240,7 @@ img {
     margin: 120px 156px 120px 156px;
 }
 
+
 .fearutes-list {
     display:flex;
     justify-content: center;
@@ -272,6 +273,10 @@ img {
     letter-spacing: 0.02em;
     /* SLATE */
     color: #434455;
+ }
+
+ .hero-link {
+    width: 100%;
  }
 
  .fearutes-list .fearutes-item{
