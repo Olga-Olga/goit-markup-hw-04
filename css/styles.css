@@ -160,12 +160,17 @@ img {
 
 /* !Section 1 */
 .top-section {
-    background: #2E2F42; 
+    /* background: #2E2F42;  */
     height: 600px;
     left: 0px;
     top: 72px;
     padding: 188px 0;
     /* text-align: center; */
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .main-title {
@@ -348,14 +353,11 @@ padding: 120px 0px;
     /* flex-basis: calc((100% - 3 * 24px) / 4); */
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-/* .hero-link {
-    margin: 0px 0px 0px 0px;
-} */
-
 .team-member-info{
-    padding: 32px 16px;
+    padding: 32px 0 32px;
 }
 
 .hero-name {
@@ -381,6 +383,84 @@ padding: 120px 0px;
         color: #434455;
 }
 
+
+.medi-icons-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.medi-icons-item-wrapper {
+    border: 10px solid var(--color-slate);
+    border-radius: 4px ;
+    
+}
+
+.medi-icons-item {
+   border: 1px solid var(--color-slate);
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   background: #404BBF;
+   
+}
+
+.medi-icons-item a {
+    width: 100%;
+    height: 100%;
+}
+
+/* ! Section5 */
+
+
+.customer-section {
+    padding: 120px 0;
+}
+
+.customers-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.customer-item {
+border: 1px solid var(--color-slate);
+border-radius: 4px;
+width: calc((100% - 120px) / 6);
+height: 88px;
+}
+
+.customer-item a {
+    width: 100%;
+    height: 100%;
+}
+
+.customer-wrapper {
+    /* height: 780px; */
+    /* !QUESTION margin: 120px 156px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cust-title{
+   /* Header 2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+/* identical to box height, or 111% */
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+/* NAVY BLUE */
+color: #2E2F42; 
+margin-bottom: 72px;
+
+}
+
 /* ! Footer */
 
 
@@ -388,6 +468,8 @@ padding: 120px 0px;
     background-color: var(--color-navyblue);
     padding: 101px 0px 100px 0px;
     height: 312px;
+    display: flex;
+    align-items: baseline;
 }
 
 .footer .link {
@@ -418,7 +500,18 @@ margin-top: 0px;
 margin-bottom: 0px;
 }
 
-/* PORTFOLIO */
+.footer-media-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    /* WHITE */
+    color: #FFFFFF;
+}
+
+
+/* !PORTFOLIO */
 
 .main-section{
     padding: 96px 0 120px
@@ -552,82 +645,29 @@ cursor: pointer;
 .icon-block {
     background: #F4F4FD;
     border-radius: 4px;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
     height: 112px;
     /* text-align: center; */
 
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 8px;
 }
 
+/* 
 .icon {
     text-decoration: none;
     
-} 
+}  */
 
 .fearutes-list:hower, .fearutes-list:focus {
     color: var(--color-iris);
 }
 
-.customers-list{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-}
-.customer-item {
-border: 1px solid var(--color-slate);
-border-radius: 4px;
-}
 
-.customer-wrapper {
-    /* height: 780px; */
-    margin: 120px 156px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.cust-title{
-   /* Header 2 */
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-/* identical to box height, or 111% */
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-/* NAVY BLUE */
-color: #2E2F42; 
-}
 
 
 /* a:hover, a:focus {
     fill: #4D5AE5;
 } */
-
-.medi-icons-list{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.medi-icons-item-wrapper {
-    border: 10px solid var(--color-slate);
-    border-radius: 4px ;
-    
-}
-
-.medi-icons-item {
-   border: 1px solid var(--color-slate);
-   border-radius: 50%;
-   width: 40px;
-   height: 40px;
-   background: #404BBF;
-}
-
