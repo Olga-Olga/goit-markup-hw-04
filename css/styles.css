@@ -57,6 +57,8 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
 }
 
 
@@ -125,6 +127,7 @@ img {
 
 
 /*  */
+
 .header-container {
     display: flex;
     align-items: center;
@@ -132,6 +135,7 @@ img {
     height: 72px;
     /* margin-right: 156px; */
     padding: 0;
+    
 }
 
 .header-navigation-withlogo {
@@ -358,6 +362,7 @@ padding: 120px 0px;
 
 .team-member-info{
     padding: 32px 0 32px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .hero-name {
@@ -464,7 +469,7 @@ margin-bottom: 72px;
 /* ! Footer */
 
 
-.footer {
+.footer-wrapper {
     background-color: var(--color-navyblue);
     padding: 101px 0px 100px 0px;
     height: 312px;
