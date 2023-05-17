@@ -1,8 +1,7 @@
 /* Опис змінних по всьому документ. Якщо сворити в секції, то тільки в цієї секції буде працювати */
 :root {
-  /* NAVY BLUE */
+  /* navy-blue*/
   --color-navyblue: #2e2f42;
-
   /* IRIS */
   --color-iris: #4d5ae5;
   /* OCEAN */
@@ -247,7 +246,6 @@ img {
   line-height: 1.2;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
-  /* NAVY BLUE */
   color: var(--color-navyblue);
   /* flex-basis: calc((100% - 3 * 24px) / 4) */
   margin-bottom: 8px;
@@ -328,7 +326,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* NAVY BLUE */
   color: #2e2f42;
   /* color: var(--title-color) */
   text-align: center;
@@ -429,30 +426,50 @@ img {
   padding: 120px 0;
 }
 
+.customer-wrapper {
+  /* height: 780px; */
+  /* !QUESTION margin: 120px 156px; */
+  margin-left: auto;
+  margin-right: auto;
+
+  /* ! ADDED_IRYNA */
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.cust-title {
+  /* Header 2 */
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  /* identical to box height, or 111% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  /* NAVY BLUE */
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+
 .customers-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  align-items: center;
+  /* ! IRY CHANGES */
+  /* align-items: center; */
 }
 
 .customer-item {
+  /* !IRY_CHANGES 
   border: 1px solid var(--color-slate);
-  border-radius: 4px;
+  border-radius: 4px; */
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
 .customer-item-link {
-  /* padding: 16px 32px; */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* border: 1px solid #8e8f99; */
-  /* border-radius: 4px; */
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* color: #8e8f99; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -468,30 +485,6 @@ img {
 .customer-item-link:focus {
   border-color: #404bbf;
   color: #404bbf;
-}
-
-.customer-wrapper {
-  /* height: 780px; */
-  /* !QUESTION margin: 120px 156px; */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cust-title {
-  /* Header 2 */
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  /* identical to box height, or 111% */
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  /* NAVY BLUE */
-  color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 /* ! Footer */
@@ -574,9 +567,10 @@ border-radius: 50%;
 
 .footer-logo {
   width: 264px;
+  margin-right: 120px;
 }
 
-.footer-icon-customer{
+.footer-media-icons {
     fill: #f4f4fd;
 }
 
