@@ -444,15 +444,24 @@ img {
 }
 
 .customer-item-link {
-  padding: 16px 32px;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
+  /* padding: 16px 32px; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* border: 1px solid #8e8f99; */
+  /* border-radius: 4px; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* color: #8e8f99; */
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px 32px;
   color: #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 
 .customer-item-link:hover,
@@ -502,8 +511,6 @@ img {
   margin-bottom: 16px;
 }
 
-
-
 /* Logo and logospan in the heared */
 .logo-studio-bottom {
   /* CLOUD */
@@ -540,15 +547,19 @@ img {
   border-radius: 50%;
   background: #4d5ae5;
   margin-bottom: 16px;
-  width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+width: 40px;
+height: 40px;
+/* color: var(--footer-text); */
+background-color: var(--accent-colour);
+border-radius: 50%;
+
 }
 
 
-.footer-medi-icons-link:focus, ..footer-medi-icons-link:hover{
+.footer-media-link:focus, .footer-media-link:hover{
     background-color: #31d0aa;
 }
 
